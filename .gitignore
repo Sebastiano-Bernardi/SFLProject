@@ -81,7 +81,16 @@ DerivedDataCache/*
 *.code-workspace
 
 
-Plugins/AscentCombatFramework/*
-ProjectTitan/Intermediate
-ProjectTitan/Saved
-ProjectTitan/Binaries
+
+# Per Ignorare i file scriviamo *.tipofile
+*.txt
+*.pdf
+
+# Per Ignorare le cartelle scriviamo NomeCartella/NomesottoCartella 
+# Oppure NomeCartella/* -> ignoro QUALSIASI sottocartella dentro NuovaCartella
+# * -> qualsiasi
+/Intermediate/*
+/Saved/*
+/DerivedDataCache/*
+
+
